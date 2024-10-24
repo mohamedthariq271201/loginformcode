@@ -1,0 +1,142 @@
+.topcontainer{
+
+    box-sizing: border-box;
+    border: 40px solid #b3ccff;
+    width: 40%;
+    margin-left: 28%;
+    border-radius: 25px;
+    
+    
+}
+.container{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.textlogin{
+    font-family: sans-serif;
+    line-height: 10px;
+    margin-right: 15px;
+}
+
+.button-container {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 80px;
+    background-color: white; 
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #4285f4; 
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+.button-container img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; 
+}
+
+.button-container input {
+    background: none;
+    border: none;
+     
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+}
+.text-with-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.input-container {
+    position: relative;
+    width: 340px;
+  }
+
+   .input-container input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+
+  .input-containerey {
+    position: relative;
+    width: 300px;
+    margin-right: 40px;
+}
+
+
+.input-containerey input {
+    width: 115%;
+    height: 50%;
+    padding: 10px 40px 10px 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    
+}
+
+.inputboxlogingoogle{
+    padding: 12px 20px;
+    font-family: sans-serif;
+    
+    
+
+}
+.textloginemail{
+    font-family: sans-serif;
+    
+}
+.inputboxemail{
+     font-family: sans-serif;
+     height: 50px;
+     
+}
+
+.inputboxpassword{
+    font-family: sans-serif;
+    height: 50px;
+}
+.checkboxrememberme{
+    font-family: sans-serif;
+
+}
+.pswd{
+    font-family: sans-serif;
+    color: blue;
+}
+button{
+    font-family: sans-serif;
+    background: blue;
+    color: white;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+   display: inline-block;
+   margin: 4px 2px;
+   width: 25%;
+   border-radius: 5px;
+   padding: 12px 100px;
+}
+
+
+
+
+
+
